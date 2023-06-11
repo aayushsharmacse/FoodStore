@@ -472,8 +472,13 @@ body{
    background-color: blueviolet;
 }
 
-
-
+/*loking better*/
+ body{
+    background-color: black;
+  }
+.categorycontentimgin{
+    color: aliceblue;
+  }
 
 
 
@@ -541,32 +546,6 @@ body{
   .billingtable{
     font-size: 80%;
   }
-  /* .nav{
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-  }
-  .rightnav{
-    flex-direction: column;
-  }
-  .leftnav{
-    flex-direction: column;
-  }
-  .middlenav{
-    flex-direction: column;
-  } */
-  /* .nav{
-    display: none;
-  } */
-  /* .mobilenav{
-    display: flex;
-    width:100%;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .mobilenav img,.mobilenav input{
-   height:3rem;
-  } */
   .productsincartcontainer{
     margin:1rem ;
     width: 100%;
