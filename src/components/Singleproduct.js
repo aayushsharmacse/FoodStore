@@ -15,7 +15,7 @@ export default function Singleproduct() {
   const {productid}=useParams();
  
   const navigate=useNavigate();
-  const [data]=useFetch("https://adorable-bat-fatigues.cyclic.app/best-foods");
+  const [data]=useFetch("https://668917b40ea28ca88b86ed9f.mockapi.io/best-foods/Foods");
     const product=data && data.find((product)=>product.id===productid);
 
     if(!product){
