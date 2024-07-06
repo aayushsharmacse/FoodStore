@@ -7,7 +7,7 @@ export const ShopContext=createContext(null);
 
 
 export default function ShopContextProvider(props) {
-    const [allproducts]=useFetch("https://adorable-bat-fatigues.cyclic.app/best-foods")
+    const [allproducts]=useFetch("https://668917b40ea28ca88b86ed9f.mockapi.io/best-foods/Foods")
     // console.log(allproducts.length);
     const [cartItems,setCartItems]=useState({});
     // const [value,setValue]=useState(Number(0));
