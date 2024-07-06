@@ -6,7 +6,7 @@ import { ShopContext } from "./ShopContextProvider";
 export default function Content4() {
     const navigate=useNavigate();
     const {cartItems,addtocart,removefromcart}=useContext(ShopContext);
-  const [data]=useFetch("https://adorable-bat-fatigues.cyclic.app/best-foods");
+  const [data]=useFetch("https://668917b40ea28ca88b86ed9f.mockapi.io/best-foods/Foods");
  
   if(!data.find((product)=>product.id===data[data.length-1].id)){
     return (
