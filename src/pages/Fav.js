@@ -11,7 +11,7 @@ import emptyfavlist from "../images/money.png"
 export default function Fav() {
   const {favourites}=useContext(ShopContext);
 console.log("check out the error here",favourites)
-  const [data]=useFetch("https://adorable-bat-fatigues.cyclic.app/best-foods");
+  const [data]=useFetch("https://668917b40ea28ca88b86ed9f.mockapi.io/best-foods/Foods");
      const [filtereddata,setFiltereddata]=useState({});
      
      useEffect(()=>{
