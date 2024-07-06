@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import Cartsingleproduct from '../components/Cartsingleproduct';
 
 export default function Cart() {
-  const [data]=useFetch("https://adorable-bat-fatigues.cyclic.app/best-foods");
+  const [data]=useFetch("https://668917b40ea28ca88b86ed9f.mockapi.io/best-foods/Foods");
   // console.log(data)
   const [filtereddata,setFiltereddata]=useState({});
   // const [inputvalue,setInputvalue]=useState("");
